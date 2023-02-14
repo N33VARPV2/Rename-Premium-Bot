@@ -3,7 +3,7 @@ from pyrogram import Client, compose,idle
 import os
 from config import *
 
-from plugins.cb_data import app as Client2
+#from plugins.cb_data import app as Client2
 
 TOKEN = os.environ.get("TOKEN", "")
 
