@@ -21,7 +21,7 @@
 
     "env": {
 
-        "CHANNEL": {
+        "UPDATES_CHANNEL": {
 
             "description": "Channel or Group user Name With @",
 

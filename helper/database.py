@@ -1,4 +1,5 @@
 import pymongo 
+from config import *
 import os
 from helper.date import add_date
 DB_NAME = os.environ.get("DB_NAME","")

@@ -1,4 +1,5 @@
 import os
+from config import *
 from pyrogram.errors.exceptions.bad_request_400 import UserNotParticipant
 import time
 from pyrogram import Client, filters
@@ -10,7 +11,7 @@ from helper.database import  insert ,find_one,used_limit,usertype,uploadlimit,ad
 from pyrogram.file_id import FileId
 from helper.database import daily as daily_
 from helper.date import add_date ,check_expi
-CHANNEL = os.environ.get('CHANNEL',"")
+UPDATES_CHANNEL = os.environ.get('UPDATES_CHANNEL',"")
 import datetime
 from datetime import date as date_
 STRING = os.environ.get("STRING","")
@@ -79,7 +80,7 @@ async def start(client,message):
 
 @Client.on_message(filters.private &( filters.document | filters.audio | filters.video ))
 async def send_doc(client,message):
-       update_channel = CHANNEL
+       update_channel = UPDATES_CHANNEL
        user_id = message.from_user.id
        if update_channel :
        	try:
