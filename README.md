@@ -47,11 +47,11 @@ addpremium - (Admin Use Only)Add Users To Rename More Then 4Gb Files and Remove 
 
 * Clone the Repo
 ```
-git clone https://github.com/WebX-Divin/RenameBot-Premium
+git clone https://github.com/Tamilupdates/Premium-Rename-Bot
 ```
 * Move to the Repo Folder
 ```
-cd RenameBot-Premium
+cd Premium-Rename-Bot
 ```
 * Update the instance
 ```
@@ -75,5 +75,5 @@ python3 bot.py
 ```
 
  # Join Telegram Channel 
- - [WebXBots](https://t.me/WebXBots). Bot Updates Channel
- - Support Group [WebX-Support](https://t.me/Web_X_Support). For Bug report.
+ - [KPS Bots](https://telegram.me/KPSBots). Bot Updates Channel
+ - Support Group [KPS Bots Support](https://telegram.me/KPSBotsSupport). For Bug report.
