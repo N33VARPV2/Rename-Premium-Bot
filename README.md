@@ -22,7 +22,7 @@ Give a star and Use the Repo as your need.
 
 * ADMIN         - Your User ID 
 
-* DB_URL  - Mongo Database URL from https://cloud.mongodb.com/
+* DB_URL  - Mongo Database URL from https://cloud.mongodb.com
 
 * DB_NAME  - ```optional``` Your database name from mongoDB. Default will be 'my'
 
