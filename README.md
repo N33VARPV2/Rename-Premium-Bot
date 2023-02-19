@@ -39,8 +39,8 @@ start - Start Messsage
 viewthumb - View Your Saved thumbnail
 delthumb - Delete Your Thumbnail
 about - About Bot 
-broadcast - (Admin Use Only)Send Message To All Users
-addpremium - (Admin Use Only)Add Users To Rename More Then 4Gb Files and Remove Time Limit 
+broadcast - (Admin Use Only) Send Message To All Users
+addpremium - (Admin Use Only) Add Users To Rename More Then 4Gb Files and Remove Time Limit 
 
 ```
 
