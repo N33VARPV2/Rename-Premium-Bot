@@ -1,4 +1,4 @@
-# Premium Rename Bot
+# Rename Premium Bot
 Give a star and Use the Repo as your need.
 
 ----
@@ -48,11 +48,11 @@ addpremium - (Admin Use Only) Add Users To Rename More Then 4Gb Files and Remove
 
 * Clone the Repo
 ```
-git clone https://github.com/Tamilupdates/Premium-Rename-Bot
+git clone https://github.com/Tamilupdates/Rename-Premium-Bot
 ```
 * Move to the Repo Folder
 ```
-cd Premium-Rename-Bot
+cd Rename-Premium-Bot
 ```
 * Update the instance
 ```
