@@ -4,7 +4,7 @@ from config import *
 from pyrogram.types import (  InlineKeyboardButton, InlineKeyboardMarkup,ForceReply)
 from hachoir.metadata import extractMetadata
 from hachoir.parser import createParser
-from helper.database import *
+# from helper.database import *
 import os
 import random
 from PIL import Image
@@ -17,11 +17,11 @@ from helper.set import escape_invalid_curly_brackets
 
 log_channel = LOG_CHANNEL
 
-API_ID = int(os.environ.get("API_ID", ""))
+#API_ID = int(os.environ.get("API_ID", ""))
 
-API_HASH = os.environ.get("API_HASH", "")
+#API_HASH = os.environ.get("API_HASH", "")
 
-STRING = os.environ.get("STRING", "")
+#STRING = os.environ.get("STRING", "")
 
 app = Client("test", api_id=API_ID, api_hash=API_HASH, session_string=STRING)
 
